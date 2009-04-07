@@ -1,4 +1,7 @@
 Revision history for Perl extension GNTP::Growl
 
+0.02    Tue Apr 07 22:22:20 2009
+        - oops, debug dump file was output.
+
 0.01    Mon Mar 23 14:02:55 2009
         - original version

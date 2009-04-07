@@ -7,7 +7,7 @@ use Data::UUID;
 use Crypt::CBC;
 use Digest::MD5 qw/md5_hex/;
 use Digest::SHA qw/sha1_hex sha256_hex/;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
     my $class = shift;
@@ -277,7 +277,6 @@ sub _gen_header {
     } else {
         $form = "GNTP/1.0 $method NONE\r\n$form\r\n";
     }
-    _debug("$method.bin", $form);
     return $form;
 }
 
