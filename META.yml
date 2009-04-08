@@ -22,7 +22,7 @@ requires:
   Crypt::CBC: 2.29
   Data::UUID: 0.149
   Digest::MD5: 2.36
-  Digest::SHA1: 2.11
+  Digest::SHA: 5.45
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
